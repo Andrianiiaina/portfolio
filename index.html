@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="App.css">
+  <link rel="stylesheet" href="bootstrap1.css">
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar navbar-expand fixed-top navbar-dark ">
+          <a class="navbar-brand" href="#home">Home</a>
+         <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#capacity">Téchnologies</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projets</a>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contacts</a>
+
+          </li>
+         </ul>
+        </nav>
+      </div>
+      <div class="row" id="home">
+        <div class="entete mt-5">
+          <div class="contenu">
+            <h4> Bonjour le monde, Je suis Fenitra Andrianiaina.</h4>
+            <h2>Développeuse web et mobile.</h2>
+            <a id="btn_contact" href="#contact">ME CONTACTER</a>
+          </div>
+        </div>   
+        <div class="propos p-5">
+          <h3>Mes propos:</h3>
+          <p>
+            Depuis mes débuts dans le développement informatique, ma curiosité pour le code est devenue une véritable passion,
+            surtout pour le développement web, le mobile avec flutter, et plus récemment l'intégration de l'intélligence artificielle dans les projets.
+            J'ai réalisé de nombreux side-projects, convaincues que ce sont toutes ces petites expériences cumulées qui font toute la différence.
+            J'ai hate de continuer à progresser dans ce domaine en constante évolution, et de contribuer à des projets stimulants
+            tout en mettant mes compétences aux service des défis que l'on me confiera.
+  
+          </p>
+        </div>   
+    </div>
+   
+
+  <div id="project" class="row page2">
+    <center><h1>Mes dérnières réalisations:</h1></center>
+    <div class="row mt-5 p-0">
+      <div class="col-md-5">
+        <div id="carousel_quote" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/quote_home.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>   
+            <div class="carousel-item">
+              <img src="images/quote_qoutes.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+            <div class="carousel-item">
+              <img src="images/quote_statistique.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>  
+            <div class="carousel-item">
+              <img src="images/quote_detail.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>
+            <div class="carousel-item">
+              <img src="images/quote_book_detail.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>    
+            <div class="carousel-item">
+              <img src="images/quote_search.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+                    
+          </div>          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_quote" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"  type="button" data-bs-target="#carousel_quote" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div> 
+      </div>
+      <div class="col-md-6">
+       <h4>AndriianQuote</h4>
+          <p>Une application mobile dédiée au booklovers.
+             Elle permet à l'utilisateur d’enregistrer les livres qu’il a lu avec des informations détaillées (note, résumé, etc), de sauvegarder les quotes, et de gérer leurs wishlists. <br/>
+             L’application offre également un tableau de bord interactif pour permettre à l’utilisateurde visualiser des insights comme le nombre de livres lus, nombres de pages, les catégories et versions dominantes, la moyenne de page par jour,...
+          </p>    <p>Github: <a href="https://github.com/Andrianiiaina/AndrianQuote.git">https://github.com/Andrianiiaina/AndrianQuote.git</a></p>
+     
+          <div class="badge badge-primary text-wrap" width="6rem">#Flutter | #Dart | #Firebase | #Hive</div>
+      
+       </div>
+    </div>
+    <div class="row mt-4 p-0">
+          <div class="col-md-5">
+            <div id="carousel_yakoi" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/yakoi.jpg" class="img-fluid img-circle" alt="image"/>                     
+                </div>   
+                <div class="carousel-item">
+                    <img src="images/yakoi2.jpg" class="img-fluid img-circle" alt="image"/>                     
+                </div>
+                <div class="carousel-item">
+                  <img src="images/yakoi3.jpg" class="img-fluid img-circle" alt="image"/>                     
+                </div>                      
+              </div>          
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel_yakoi" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next"  type="button" data-bs-target="#carousel_yakoi" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>        
+            </div> 
+          </div>
+          <div class="col-md-6">
+                <h4>Yakoi</h4>
+                <p>Yakoi est une application web qui met en relation les organisateurs d'évènements, d'activités ou de voyage organisés avec leurs clients.
+                  Elle offre des systèmes de tags, de recherche et de filtrage avancés aux clients pour faciliter leur recherche.
+                  Et chaque organisateur dispose d’un profil présenté comme un mini-site web, avec les informations détaillées, une galerie d’images et l’historique de leur précédents posts.
+                
+                </p>
+                
+                  <p> Github: <a href="https://github.com/Andrianiiaina/yakoi1.0.git">https://github.com/Andrianiiaina/yakoi1.0.git</a></p>
+                  <div class="badge badge-primary text-wrap"> #Django | #Bootstrap | #Javascript | #MySQL</div>
+          
+          </div>
+    </div>
+    <div class="row mt-4 p-0">
+      <div class="col-md-5">
+        <div id="carousel_topic" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/topic_home.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>   
+            <div class="carousel-item">
+                <img src="images/topic_discovery.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>
+            <div class="carousel-item">
+              <img src="images/topic_topic.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>            
+          </div>          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_topic" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"  type="button" data-bs-target="#carousel_topic" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div> 
+      </div>
+      <div class="col-md-6">
+      <h4>Topic Focus</h4>
+          <p>Une application mobile qui suggère et recommande des articles pertinents en fonction des centres d’intérêts de l’utilisateur.<br/> 
+            Le fil d’actualité inclut les articles recommandés et ceux partagés par ses amis. Elle offre également les fonctionnalités de base d’un réseau social comme la publication d’articles, les commentaires, les réactions, un système de messagerie.
+          </p>
+          <p>Github: <a href="https://github.com/Andrianiiaina/Topic-Focus.git">https://github.com/Andrianiiaina/Topic-Focus.git</a></p>
+          <div class="badge badge-primary text-wrap" width="6rem">#Flutter | #Django | #Python | #MySQL</div>
+      </div>
+    </div> 
+    <div class="row mt-4 p-0">
+      <div class="col-md-5">
+        <div id="carousel_alert" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/alert_dashboard.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>   
+            <div class="carousel-item">
+                <img src="images/alert_dashboard1.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>
+            <div class="carousel-item">
+              <img src="images/alert_dashboard2.png" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+            <div class="carousel-item">
+              <img src="images/alert_dashboard4.png" class="img-fluid img-circle" alt="image"/>                     
+            </div>            
+          </div>          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_alert" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"  type="button" data-bs-target="#carousel_alert" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div> 
+      </div>
+      <div class="col-md-6">
+      <h4>Alert Mobile - Stage</h4>
+          <p>Conception et développement d’une application web qui automatise la gestion des factures payées par Mobile Money. 
+            En un seul clic, l’utilisateur récupère et télécharge les fichiers de transaction envoyé par les 3 opérateurs mobile  depuis le serveur FTP.
+            L’application traite ensuite chaque fichier en l’analysant ligne par ligne et enregistre les données dans la base de données. Le responsable est notifié s’il y a un quelconque probleme.
+            <br/> En un second clic, les fichiers traités sont automatiquement envoyés par email aux sites (sous-agences) responsables.
+            </p>
+          <p>Github: <a href="https://github.com/Andrianiiaina/mobile.git">https://github.com/Andrianiiaina/mobile.git</a></p>
+          <div class="badge badge-primary text-wrap" width="6rem">#Symfony | #Javascript | #MySql | #Ldap | #SMTP service | #Bootstrap</div>
+      </div>
+    </div>  
+    <div class="row mt-4 p-0">
+      <div class="col-md-5">
+        <div id="carousel_fauna" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/fauna_home.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>   
+            <div class="carousel-item">
+                <img src="images/fauna_list.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>
+            <div class="carousel-item">
+              <img src="images/fauna_show.png" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+            <div class="carousel-item">
+              <img src="images/fauna.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+          </div>          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_fauna" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"  type="button" data-bs-target="#carousel_fauna" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div> 
+      </div>
+      <div class="col-md-6">
+      <h4>Fauna Scan</h4>
+          <p>Une application mobile avec 2 fonctionnalités principales :<br/>
+            La première est une sorte d’encyclopédie interactive des espèces endémiques de Madagascar<br/>
+            La seconde, un système de reconnaissance d’image qui permet à l’utilisateur de prendre ou d’uploader une photo d’un animal endémique (pour l’instant, des singes) et d’obtenir instantanément l’espèce de celui-ci avec une fiche d’information complète.
+            </p>
+          <p>Github: <a href="https://github.com/Andrianiiaina/Fauna.git">https://github.com/Andrianiiaina/Fauna.git</a></p>
+          <div class="badge badge-primary text-wrap" width="6rem">#Flutter | #Dart | #Hive | #Python | #Tensorflow</div>
+      </div>
+    </div> 
+    <div class="row mt-4 p-0">
+      <div class="col-md-5">
+        <div id="carousel_benevolat" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/ben2.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div>   
+            <div class="carousel-item">
+              <img src="images/ben.jpg" class="img-fluid img-circle" alt="image"/>                     
+            </div> 
+            <div class="carousel-item">
+              <img src="images/ben1.jpg" class="img-fluid img-circle" alt="image"/>                     
+          </div>   
+          <div class="carousel-item">
+            <img src="images/ben3.JPG" class="img-fluid img-circle" alt="image"/>                     
+        </div>              
+          </div>          
+          <button class="carousel-control-prev" type="button" data-bs-target="#carousel_benevolat" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next"  type="button" data-bs-target="#carousel_benevolat" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+      </div> 
+      </div>
+      <div class="col-md-6">
+       <h4>Le monde du benevolat</h4>
+        <p>Un réseau social qui met en relation les associations et groupes à but non lucratif avec des benevoles ou volontaire.</p>
+         <p>(Je vous l'accorde, le front-end n'est pas au top mais c'etait mon tout premier side project complète avec le tout premier framework que j'ai appris alors...</p>
+        <p>Github: <a href="https://github.com/Andrianiiaina/benevolat.git">https://github.com/Andrianiiaina/benevolat.git</a></p>
+          <div class="badge badge-primary text-wrap" width="6rem">#Laravel | #Vue.js | #Bootstrap | #MySQL</div>
+      </div>
+    </div>  
+    <p>(De nombreux autres projets sont encore disponible sur mon profil github <a href="https://github.com/Andrianiiaina">Andrianiiaina</a></p>
+  </div>
+  <div id="capacity" class="row page3">
+    <div class="row p-5">
+      <center>
+        <h1>Téchnologies:</h1>
+      </center>
+      <div class="col-md-3">
+            <h4 class=" mb-5">LANGAGES INFORMATIQUES.</h4>
+            <p>HTML, CSS</p>
+            <p>PYTHON</p>
+            <p>PHP</p>
+            <p>JavaScript</p>
+      </div>
+      <div class="col-md-3">
+              <h4 class=" mb-5">FRAMEWORKS & CO</h4>
+              <p>Django</p>
+              <p>Laravel, Symfony</p>
+              <p>Flutter</p>
+              <p>React.js</p>
+              <p>Bootstrap</p>
+      </div>
+      <div class="col-md-3">
+        <h4 class="mb-5">INTELLIGENCE ARTIFICIELLE</h4>
+        <p>Python & bibliothèque: <br/>Tensorflow, Scikit-learn, Numpy, Pandas,...</p>
+        <p>Bonne connaissance en NLP et en computer vision</p>
+        <p>Panché Machine Learning</p>
+</div>
+      <div class="col-md-3">
+              <h4 class="mb-5">BASE DE DONNEES</h4>
+              <p>SQL, MySQL</p>
+              <p>Hive</p>    
+              <p>Firestore</p>
+              <h4 class="mt-5">AUTRES</h4>
+              <p>Git, Github, Trello</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="contact" class="footer row">
+    <p><i><center>
+      Vous avez des projets? vous voulez plus d'informations? n'hésitez pas à me contacter.
+    </center></i></p>
+    
+    <div class="col-md-4">
+      <b>Adresse:</b>
+      <p>Antsobolo Antananarivo Madagasikara</p>
+      <b>Téléphone:</b>
+      <p>0348450875/0325231749</p>
+      <b>E-mail:</b>
+      <p>andrianiiainafenitra@gmail.com</p>
+      <b>Github:</b>
+      <p><a href="https://github.com/Andrianiiaina">Andrianiiaina</a></p>
+    </div>
+    <center><p><i>@copyright 2021</i></p></center>
+  </div>
+
+
+
+  <script src="bootstrap2.js"></script>     
+
+ </body>
+  
+</html>

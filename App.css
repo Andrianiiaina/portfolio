@@ -3,9 +3,11 @@ body{
   background:black;
   color: white;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .entete{
-  background-image:url('free.jpg');
+  background-image:url('images/free.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,11 +16,6 @@ body{
   display: flex;
   justify-content: center;
 }
-
-.container-fluid{
-  background-color:#0b0c0ccc;
-}
-
 .entete .contenu{
   height:400px;
   width: 800px;
@@ -32,6 +29,9 @@ body{
   justify-content: center;
   flex-direction: column;
 }
+.container-fluid{
+  background-color:#0b0c0ccc;
+}
 
 #btn_contact {
   margin-top: 10px;
@@ -43,10 +43,13 @@ body{
   border-radius: 10px;
   border: 1px solid rosybrown;
   transition: ease-in-out 0.5s;
+  
+  color:white;
+  text-decoration: none;
 }
 #btn_contact:hover {
   margin-top: 10px;
-  background-color: rgba(194, 69, 163, 0.781);
+  background-color: rgba(241, 1, 181, 0.781);
   color: white;
   padding: 10px;
   font-weight: bolder;
@@ -94,6 +97,8 @@ center > h1{
 .page2{
   background-color:#0e0f10;
   color: white;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .details >h4{
     color: rgb(157, 85, 216);
@@ -101,16 +106,11 @@ center > h1{
 }
 
 /** page3 */
-.container-fluid.page3 {
+.page3 {
   background-color: #212529;
   color: #999;
   padding-left: 5%;
   padding-right: 5%;
-}
-#aze {
-  font-style: italic;
-  font-family: -webkit-body;
-  color: rgb(218, 197, 235);
 }
 /*footer**/
 .footer{
@@ -137,20 +137,6 @@ center > h1{
 }
 .navbar >a, .navbar >a:hover{
   color: white;
-}
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .img-circle{
