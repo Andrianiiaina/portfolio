@@ -1,10 +1,12 @@
 /** page1 **/
-body{
-  background:black;
-  color: white;
-}
-html{
+
+html,body{
   scroll-behavior: smooth;
+  margin:0;
+  padding:0;
+  background:black;
+  overflow-x: hidden;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 .entete{
   background-image:url('images/free.jpg');
@@ -23,16 +25,11 @@ html{
   box-shadow: 0 1px 32px 0 rgba(31,38,135,0.17);
   border-radius: 10px;
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-.container-fluid{
-  background-color:#0b0c0ccc;
-}
-
 #btn_contact {
   margin-top: 10px;
   background-color: transparent;
@@ -43,13 +40,12 @@ html{
   border-radius: 10px;
   border: 1px solid rosybrown;
   transition: ease-in-out 0.5s;
-  
-  color:white;
   text-decoration: none;
+  align-items: center;
 }
 #btn_contact:hover {
   margin-top: 10px;
-  background-color: rgba(241, 1, 181, 0.781);
+  background-color: rgba(156, 4, 118, 0.781);
   color: white;
   padding: 10px;
   font-weight: bolder;
@@ -61,15 +57,15 @@ html{
 .contenu > h2 {
     font-weight: bolder;
     font-family: cursive;
+    color:black;
     
 }
 .contenu >h4{
-  margin-top: 50px;
   font-family: initial;
   font-weight: bolder;
-  
+  color:black;
 }
-.propos > h3 {
+.title {
   color: white;
   text-decoration: underline;
   text-decoration-color: rgb(160, 46, 141);
@@ -79,17 +75,13 @@ html{
   font-family: sans-serif;
   text-underline-position: under;
 }
-.propos > p{
+.propos > p, .col-md-6>p{
   color: #999;
   font-family: "Heebo",sans-serif;
-  padding:2% 0% 5% 5%;
+  padding:0% 0% 5% 5%;
 }
 /** page2*/
 
-center > h1{
-  padding: 2%;
-  color:white;
-}
 .propos, h4>b{
   background-color:#0b0c0ccc;
   color: white;
@@ -118,17 +110,6 @@ center > h1{
   color: #999;
   padding-left: 5%;
   padding-right: 5%;
-}
-#reseau{
-  width:60px;
-  height: 60px;
-  border-radius: 50%;
-}
-#tool{
-  color: white;
-  text-decoration: underline;
-  text-decoration-color: white;
-  margin: 20px;
 }
 
 .navbar{
