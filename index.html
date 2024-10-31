@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio</title>
-  <link rel="stylesheet" href="App.css">
+  <link rel="stylesheet" href="app.css">
   <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
@@ -31,27 +31,28 @@
       <div id="home" class="row">
         <div class="entete mt-5">
           <div class="contenu p-5">
-            <h4> Bonjour le monde, Je suis Fenitra Andrianiaina.</h4>
-            <h2>Développeuse web et mobile.</h2>
+            <h4 class="text-center lh-lg"> Bonjour le monde, Je suis Fenitra Andrianiaina.</h4>
+            <h2 class="text-center lh-lg">Développeuse web et mobile.</h2>
             <a id="btn_contact" href="#contact" class="mt-5">ME CONTACTER</a>
           </div>
         </div>   
-        <div class="propos p-5">
-          <h3 class="title">Mes propos:</h3>
+        <div class="propos p-5 pb-0">
+          <h3 class="title mb-4">Mes propos:</h3>
           <p>
-            Depuis mes débuts dans le développement informatique, ma curiosité pour le code est devenue une véritable passion,
-            notamment pour le développement web, le mobile avec flutter, et plus récemment l'intégration de l'intélligence artificielle dans les projets.
-            J'ai réalisé de nombreux side-projects, convaincues que ce sont toutes ces petites expériences cumulées qui font toute la différence.
+            Guidé par ma curiosité pour le code et ces multiples domaines depuis le début, 
+            je poursuis actuellement un Master 2 en Génie Logiciel et Intelligence Artificielle.
+            J'ai trouvé ma véritable passion dans le développement web, le mobile avec flutter, et plus récemment l'intégration de l'intelligence artificielle dans les projets.
+             
+            j'ai réalisé de nombreux side-projects, convaincues que ce sont les petites expériences cumulées qui font toute la différence.
             J'ai hate de continuer à progresser dans ce domaine en constante évolution, et de contribuer à des projets stimulants
             tout en mettant mes compétences aux service des défis que l'on me confiera.
   
           </p>
         </div>   
     </div>
-   
 
-  <div id="project" class="row page2">
-    <center><h3 class="title m-5">Mes dérnières réalisations:</h3></center>
+  <div id="project" class="row page2 pt-2">
+    <h3 class="title text-center lh-lg mt-5 mb-5">Mes dérnières réalisations:</h3>
     <div class="row mb-4">
       <div class="col-md-5">
         <div id="carousel_quote" class="carousel slide" data-bs-ride="carousel">
@@ -86,15 +87,15 @@
             </button>
       </div> 
       </div>
-      <div class="col-md-6">
-       <h4 class="mt-2">AndriianQuote</h4>
-          <p>Une application mobile dédiée au booklovers.
-             Elle permet à l'utilisateur d’enregistrer les livres qu’il a lu avec des informations détaillées (note, résumé, ...), de sauvegarder les quotes, et de gérer leurs wishlists. <br/>
+      <div class="col-md-7">
+       <h4>AndriianQuote</h4>
+          <p>Une application mobile dédiée aux booklovers pour enregistrer les livres qu’ils ont lu avec des informations détaillées (note, résumé, ...), de sauvegarder les quotes, et de gérer leurs wishlists. <br/>
              L’application offre également un tableau de bord interactif pour permettre à l’utilisateur de visualiser des insights comme le nombre de livres et de page lus, les catégories et versions dominantes, la moyenne de page par jour,...
-          <br/><br/>
-          <small class="text-wrap" width="6rem">#Flutter | #Dart | #Firebase | #Hive</small><br/>
-          Github: <a href="https://github.com/Andrianiiaina/AndrianQuote.git">https://github.com/Andrianiiaina/AndrianQuote.git</a><br/>
-     
+          <br/>
+          <br/>
+          <small class="text-wrap" width="6rem">#Flutter | #Dart | #Firebase |  #Firestore  |  #Hive<br/>
+             Github: <a href="https://github.com/Andrianiiaina/AndrianQuote.git">Andrianiiaina/AndrianQuote.git</a><br/>
+          </small>
         </p>
        </div>
     </div>
@@ -122,15 +123,15 @@
               </button>        
             </div> 
           </div>
-          <div class="col-md-6">
+          <div class="col-md-7">
                 <h4 class="mt-2">Yakoi</h4>
-                <p>Yakoi est une application web qui met en relation les organisateurs d'évènements, d'activités ou de voyage organisés avec leurs clients.
-                  Elle offre des systèmes de tags, de recherche et de filtrage avancés aux clients pour faciliter leur recherche.
-                  Et chaque organisateur dispose d’un profil présenté comme un mini-site web, avec les informations détaillées, une galerie d’images et l’historique de leur précédents posts.<br/>
+                <p>Yakoi est une application web qui permet aux simples utilisateurs de trouver des évènements, des activités ou des voyages organisés,
+                  avec des systèmes de tags, de recherche et de filtrage avancés.
+                  Et pour les organisateurs, ils disposent d’un profil présenté comme un mini-site web, avec les informations détaillées, une galerie d’images et l’historique de leur précédents offres.<br/>
                   <br/>
-                  <small class="text-wrap"> #Django | #Bootstrap | #Javascript | #MySQL</small><br/>
-                 Github: <a href="https://github.com/Andrianiiaina/yakoi1.0.git">https://github.com/Andrianiiaina/yakoi1.0.git</a><br/>
-
+                  <small class="text-wrap"> #Django | #Bootstrap | #Javascript | #MySQL<br/>
+                    Github: <a href="https://github.com/Andrianiiaina/yakoi1.0.git">Andrianiiaina/yakoi1.0.git</a><br/>
+                  </small>
                 </p>
           
           </div>
@@ -159,18 +160,18 @@
             </button>
       </div> 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
       <h4 class="mt-2">Topic Focus</h4>
-          <p>Une application mobile qui utilise un système de recommendation basé sur le contenu pour suggérer 
+          <p>Une application mobile qui utilise un système de recommendation basé sur le contenu, pour suggérer chaque jour
             des articles pertinents, en fonction des centres d’intérêts de l’utilisateur.<br/> 
             Elle offre également les fonctionnalités de base d’un réseau social comme la publication d’articles, les commentaires, les réactions, un système de messagerie.
             <br/><br/>
-            #Back-end: Django/Python.<br/>
-            #Front-end: Flutter.<br/>
-            #Base de données: MySql<br/>
+            <small class="text-wrap" width="6rem">#Django  |  #Python  |  #Flutter  |  #MySql<br/>
 
-          Github: <a href="https://github.com/Andrianiiaina/Topic-focus-back.git">https://github.com/Andrianiiaina/Topic-focus-back.git</a>
-          & <a href="https://github.com/Andrianiiaina/Topic-Focus.git">https://github.com/Andrianiiaina/Topic-Focus.git</a></p>
+              Github: <a href="https://github.com/Andrianiiaina/Topic-focus-back.git">Andrianiiaina/Topic-focus-back.git</a> (back-end), 
+              <a href="https://github.com/Andrianiiaina/Topic-Focus.git">Andrianiiaina/Topic-Focus.git</a> (front-end)
+            </small>
+        </p>
       </div>
     </div> 
     <div class="row mt-4 mb-4 p-0">
@@ -200,13 +201,14 @@
             </button>
       </div> 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
       <h4 class="mt-2">Alert Mobile - Stage</h4>
-      <p>Conception et développement d’une application web qui automatise le traitement des factures réglées par mobile money. 
+      <p>Conception et développement d’une application web en interne qui automatise le traitement des factures réglées par mobile money. 
         Elle récupère les fichiers de transaction depuis le serveur FTP, extrait et stocke les transactions dans la base de données, 
         puis envoie automatiquement les fichiers aux responsables  par e-mail.<br/><br/>
-        <small class="text-wrap" width="6rem">#Symfony | #Javascript | #MySql | #Ldap | #SMTP service | #Bootstrap</small><br/>
-        Github: <a href="https://github.com/Andrianiiaina/mobile.git">https://github.com/Andrianiiaina/mobile.git</a>  
+        <small class="text-wrap" width="6rem">#Symfony  |  #Javascript  |  #MySql  |  #Ldap  |  #Bootstrap<br/>
+          Github: <a href="https://github.com/Andrianiiaina/mobile.git">Andrianiiaina/mobile.git</a>  
+        </small>
 
       </p>
           
@@ -239,15 +241,16 @@
             </button>
       </div> 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
       <h4 class="mt-2">Fauna Scan</h4>
           <p>Une application mobile avec 2 fonctionnalités principales :<br/>
-            La première est une sorte d’encyclopédie interactive des espèces endémiques de Madagascar<br/>
+            La première est une sorte d’encyclopédie interactive des espèces endémiques de Madagascar.<br/>
             La seconde, un système de reconnaissance d’image qui permet à l’utilisateur de prendre ou d’uploader une photo d’un animal endémique (pour l’instant, des singes) et d’obtenir instantanément l’espèce de celui-ci avec une fiche d’information complète.
             <br/><br/>
-            <small class="text-wrap" width="6rem">#Flutter | #Dart | #Hive | #Python | #Tensorflow</small><br/>
-            Github: <a href="https://github.com/Andrianiiaina/Fauna.git">https://github.com/Andrianiiaina/Fauna.git</a>
-            & modèle: <a href="https://github.com/Andrianiiaina/lemurs_classify.git">https://github.com/Andrianiiaina/lemurs_classify.git</a>
+            <small class="text-wrap" width="6rem">#Flutter  |  #Dart  |  #Hive  |  #Python  |  #Tensorflow<br/>
+            Github: <a href="https://github.com/Andrianiiaina/Fauna.git">Andrianiiaina/Fauna.git</a>
+            & modèle: <a href="https://github.com/Andrianiiaina/lemurs_classify.git">Andrianiiaina/lemurs_classify.git</a>
+          </small>
           </p>
       </div>
     </div> 
@@ -278,28 +281,32 @@
             </button>
       </div> 
       </div>
-      <div class="col-md-6">
+      <div class="col-md-7">
        <h4 class="mt-2">Le monde du benevolat</h4>
-        <p>Un réseau social pour mettre en relation les associations et groupes à but non lucratif avec des benevoles ou volontaire.
+        <p>Un type de réseau social pour faciliter la mise en relation entre bénévoles et associations à la recherche de soutien.<br/>
+          Il permet aux utilisateurs de découvrir et de répondre à des appels aux dons, tout en
+          offrant des outils d'intéraction sociale telle que l'échange par messagerie instantanée, les likes et les commentaires.
           (Je vous l'accorde, le front-end est à revoir...)<br/><br/>
-          <small class="text-wrap" width="6rem">#Laravel | #Vue.js | #Bootstrap | #MySQL</small><br/>
-          Github: <a href="https://github.com/Andrianiiaina/benevolat.git">https://github.com/Andrianiiaina/benevolat.git</a></p>
+          <small class="text-wrap" width="6rem">#Laravel | #Vue.js | #Bootstrap | #MySQL<br/>
+          Github: <a href="https://github.com/Andrianiiaina/benevolat.git">Andrianiiaina/benevolat.git</a>
+          </small>
+          </p>
       </div>
     </div>  
   </div>
   <div id="capacity" class="row page3">
     <div class="row p-5">
-      <center><h3 class="title mb-5">Téchnologies:</h3></center>
+      <h3 class="title text-center lh-lg mb-5 mt-2">Téchnologies:</h3>
 
       <div class="col-md-3">
-            <h4 class="mt-2">LANGAGES INFORMATIQUES</h4>
+            <h5 class="mt-2">LANGAGES INFORMATIQUES</h5>
             <p>HTML, CSS</p>
             <p>PYTHON</p>
             <p>PHP</p>
             <p>JavaScript</p>
       </div>
       <div class="col-md-3">
-              <h4 class="mt-2">FRAMEWORKS & CO</h4>
+              <h5 class="mt-2">FRAMEWORKS & CO</h5>
               <p>Django</p>
               <p>Laravel, Symfony</p>
               <p>Flutter</p>
@@ -307,17 +314,17 @@
               <p>Bootstrap</p>
       </div>
       <div class="col-md-3">
-        <h4 class="mt-2">INTELLIGENCE ARTIFICIELLE</h4>
+        <h5 class="mt-2">INTELLIGENCE ARTIFICIELLE</h5>
         <p>Python & bibliothèque: <br/>Tensorflow, Scikit-learn, Pandas,...</p>
         <p>Bonne connaissance en NLP et en computer vision</p>
         <p>Penché Machine Learning</p>
-</div>
+      </div>
       <div class="col-md-3">
-              <h4 class="mt-2">BASE DE DONNEES</h4>
+              <h5 class="mt-2">BASE DE DONNEES</h5>
               <p>SQL, MySQL</p>
               <p>Hive</p>    
               <p>Firestore</p>
-              <h4 class="mt-2">AUTRES</h4>
+              <h5 class="mt-2">AUTRES</h5>
               <p>Git, Github, Trello</p>
       </div>
     </div>
@@ -344,7 +351,7 @@
 
 
   <script src="bootstrap.bundle.min.js"></script>     
-
+  
  </body>
   
 </html>
